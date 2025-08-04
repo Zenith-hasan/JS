@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        small {
+            color: #ff6a6a;
+        }
+        #hide{
+            display: none;
+        }
+
+    </style>
 </head>
 <body>
-    <script src="Fetch.js"></script>
+    <form>
+        <input type="text" placeholder="Name" id="name">
+        <div id="hide">
+        <br>
+        <small >Name Should be atleast more than 2 characters</small>
+        </div>
+        <br><br>
+        <input type="email" placeholder="Email">
+        <br><br>
+        <input type="password" placeholder="Password">
+        <br><br>
+        <select name="" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br><br>
+        <textarea placeholder="Tell Us About You..."></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+    <script src="Forms.js"></script>
 </body>
 </html>
